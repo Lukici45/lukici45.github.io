@@ -1,0 +1,135 @@
+
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1F1F1F;
+  
+}
+
+header {
+  background-color: #333333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a.slotgames {
+  background-color: #fca311;
+  color: #fff;
+}
+
+nav a.slotgames:hover {
+  background-color: #e69500;
+}
+
+nav a:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.navigation {
+	background-color: #333;
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 75px;
+}
+table {
+	items-align: center;
+}
+td {
+	text-align: center;
+}
+@font-face {
+	font-family: Marker;
+	src: url(PermanentMarker-Regular.ttf);
+}
+@font-face {
+	font-family: Slab;
+	src: url(RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: Kanit;
+	src: url(Kanit-Regular.ttf);
+}
+p {
+	font-family: "Marker";
+}
+h2 {
+	font-family: "Slab";
+}
+.alert {
+	font-family: "Kanit";
+}
+ #photo {
+      display: none;
+}
+.grayscale {
+      filter: grayscale(100%);
+    }
+    
+    /* CSS to display the words on top of the photo */
+    .photo-container {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .photo-words {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
